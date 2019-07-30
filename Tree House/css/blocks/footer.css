@@ -1,0 +1,248 @@
+footer {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #222222;
+}
+.footer-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 990px) {
+  .footer-container {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+  }
+}
+.contactus-block {
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 990px) {
+  .contactus-block {
+    width: 280px;
+    margin-right: 60px;
+    margin-left: 0px;
+  }
+  .contactus-block:last-child {
+    margin-right: 0px;
+  }
+}
+.contactus-block a {
+  text-decoration: none;
+}
+.contactus-title {
+  margin-bottom: -15px;
+}
+.contactus-title h4 {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.778;
+}
+.tweet-img {
+  margin-right: 10px;
+}
+.tweet-img i {
+  color: white;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.tweet-title {
+  margin-top: -2px;
+}
+.tweet-title span {
+  font-size: 16px;
+  color: #ececec;
+  line-height: 1.2;
+}
+.tweet-title .tweet-a {
+  font-size: 16px;
+  color: #ececec;
+  line-height: 1.2;
+  font-family: 'Roboto Slab', serif;
+}
+.tweet-title .tweet-a:hover {
+  border: none;
+}
+.tweet-hash {
+  margin-top: 5px;
+}
+.tweet-hash b {
+  font-size: 16px;
+  color: #ececec;
+  line-height: 1.2;
+}
+.tweet-data {
+  margin-top: -5px;
+}
+.tweet-data p {
+  font-size: 14px;
+  color: #ececec;
+  line-height: 1.2;
+}
+.location-img i {
+  color: white;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.location-title {
+  width: 130px;
+  margin-top: -3px;
+}
+.location-title span {
+  font-size: 16px;
+  color: #ececec;
+  line-height: 1.2;
+}
+.tel-img {
+  margin-top: 15px;
+}
+.tel-img i {
+  color: white;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.tel {
+  margin-top: 15px;
+}
+.tel span {
+  font-size: 16px;
+  color: #ececec;
+  line-height: 1.2;
+}
+.email-img {
+  margin-top: 15px;
+}
+.email-img i {
+  color: white;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.email {
+  margin-top: 15px;
+}
+.email span {
+  font-size: 16px;
+  color: #ececec;
+  line-height: 1.2;
+}
+.tweet-a {
+  font-size: 16px;
+  color: #ececec;
+  line-height: 1.2;
+  font-family: 'Roboto Slab', serif;
+}
+.tweet-a:hover,
+.tweet-a:active,
+.tweet-a:focus {
+  border: none;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.tweethash-a {
+  font-size: 16px;
+  color: #ececec;
+  line-height: 1.2;
+  font-family: 'Roboto Slab', serif;
+}
+.tweethash-a:hover,
+.tweethash-a:active,
+.tweethash-a:focus {
+  border: none;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.latest-title span {
+  font-size: 16px;
+  color: #ececec;
+  line-height: 1.2;
+}
+.bitcoin-img {
+  margin-top: 15px;
+}
+.bitcoin-img i {
+  color: white;
+  font-size: 24px;
+  margin-right: 13px;
+}
+.play-img {
+  margin-top: 15px;
+}
+.play-img i {
+  color: white;
+  font-size: 24px;
+  margin-right: 15px;
+}
+.footer-social-wrapper {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.footer-social-content {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 520px) {
+  .footer-social-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+@media (min-width: 990px) {
+  .footer-social-content {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+.copyright {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+.copyright span {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #555555;
+  line-height: 1.571;
+}
+.social {
+  display: flex;
+  justify-content: center;
+}
+.social i {
+  font-size: 24px;
+  color: white;
+  border-radius: 30px;
+  background-color: #222222;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 8px;
+  margin-right: 10px;
+  transition: all.2s ease;
+}
+.social i:hover {
+  transition: all.2s ease;
+  color: lime;
+}
+.social a {
+  border: none;
+}
+.social a:hover {
+  border: none;
+}

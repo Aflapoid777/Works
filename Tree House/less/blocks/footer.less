@@ -1,0 +1,316 @@
+footer {
+    width: 100%;
+    
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    background-color: rgb(34, 34, 34);
+}
+
+.footer-container {
+    width: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    @media (min-width: 990px) {
+        width: 940px;   
+        
+        margin-left: auto;
+        margin-right: auto;
+        
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.contactus-block {
+    width: 280px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    @media (min-width: 990px) {
+        width: 280px;
+    
+        margin-right: 60px;
+        margin-left: 0px;
+
+        &:last-child {
+            margin-right: 0px;
+        }    
+    }
+    
+    & a {
+        text-decoration: none;
+    }
+    
+}
+
+.contactus-title {
+    margin-bottom: -15px;
+    
+    & h4 {
+        font-size: 18px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 2.778;
+    }
+}
+
+.tweet-img {
+    margin-right: 10px;
+    
+    & i {
+        color: white;
+        font-size: 24px;
+        margin-right: 10px;
+    }    
+}
+
+.tweet-title {
+    margin-top: -2px;
+    
+    & span {
+        font-size: 16px;
+        
+        color: rgb(236, 236, 236);
+        line-height: 1.2;
+    }
+    
+    & .tweet-a {
+        font-size: 16px;
+        
+        color: rgb(236, 236, 236);
+        line-height: 1.2;
+        font-family: 'Roboto Slab', serif;
+        
+        &:hover {
+            border: none;
+        }
+    }
+}
+
+.tweet-hash {
+    margin-top: 5px;
+    
+    & b {
+        font-size: 16px;
+        
+        color: rgb(236, 236, 236);
+        line-height: 1.2;    
+    }
+}
+
+.tweet-data {
+    margin-top: -5px;
+    & p {
+        font-size: 14px;
+        
+        color: rgb(236, 236, 236);
+        line-height: 1.2;       
+    }  
+}
+
+.location-img {
+    
+    & i {
+        color: white;
+        font-size: 24px;
+        margin-right: 10px;
+    }
+}
+
+.location-title {
+    width: 130px;
+    margin-top: -3px;
+    
+    & span {
+        font-size: 16px;
+        
+        color: rgb(236, 236, 236);
+        line-height: 1.2;
+    }    
+}
+
+.tel-img {
+    margin-top: 15px;
+    
+    & i {
+        color: white;
+        font-size: 24px;
+        margin-right: 10px;
+    }    
+}
+
+.tel {
+    margin-top: 15px;
+    
+    & span {
+        font-size: 16px;
+        
+        color: rgb(236, 236, 236);
+        line-height: 1.2;    
+    }
+}
+
+.email-img {
+    margin-top: 15px;
+    
+    & i {
+        color: white;
+        font-size: 24px;
+        margin-right: 10px;
+    }
+}
+
+.email {
+    margin-top: 15px;
+    
+    & span {
+        font-size: 16px;
+        
+        color: rgb(236, 236, 236);
+        line-height: 1.2;        
+    }
+}
+
+.tweet-a {
+    font-size: 16px;
+        
+    color: rgb(236, 236, 236);
+    line-height: 1.2;
+        
+    font-family: 'Roboto Slab', serif;
+        
+    &:hover, &:active, &:focus {
+        border: none;
+        text-decoration: underline;
+        text-decoration-color: white;
+    }
+}
+
+.tweethash-a {
+        font-size: 16px;
+        
+        color: rgb(236, 236, 236);
+        line-height: 1.2;
+        
+        font-family: 'Roboto Slab', serif;
+        
+        &:hover, &:active, &:focus {
+            border: none;
+            text-decoration: underline;
+            text-decoration-color: white;
+        }
+    }
+
+.latest-title {
+    & span {
+        font-size: 16px;
+        
+        color: rgb(236, 236, 236);
+        line-height: 1.2; 
+    }
+}
+
+.bitcoin-img {
+    margin-top: 15px;
+    
+    & i {
+        color: white;
+        font-size: 24px;
+        margin-right: 13px;
+    }    
+}
+
+.play-img {
+     margin-top: 15px;
+    
+    & i {
+        color: white;
+        font-size: 24px;
+        margin-right: 15px;
+    }   
+}
+
+.footer-social-wrapper {
+    width: 100%;
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-social-content {
+    width: auto;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    flex-direction: column;
+    
+    @media (min-width: 520px) {
+        display: flex;
+        justify-content: space-between;  
+        flex-direction: row;
+    }
+    
+    @media (min-width: 990px) {
+        width: 940px;    
+        
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
+
+.copyright {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+    display: flex;
+    justify-content: center;
+    
+    & span {
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: rgb(85, 85, 85);
+        line-height: 1.571;    
+    }
+}
+
+.social {
+    
+    display: flex;
+    justify-content: center;
+    
+    & i {
+        font-size: 24px;
+        color: white;
+        border-radius: 30px;
+        background-color: rgb(34, 34, 34);
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        padding-top: 8px;
+        margin-right: 10px;
+        transition: all.2s ease;
+        
+        &:hover, {
+            transition: all.2s ease;
+            color: lime;
+        }
+    }
+    
+    & a {
+        border: none;
+        
+        &:hover {
+            border: none;
+        }
+    }
+}
+

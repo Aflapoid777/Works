@@ -1,0 +1,133 @@
+.latest-box__icon {
+    
+}
+
+.ipad-bg {
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    bottom: -1205px;
+    display: flex;
+    justify-content: flex-end;
+    
+    & img {
+        display: none;
+        
+        @media (min-width: 720px) {
+            width: 281px;
+            height: 199px;
+            display: block;
+        }
+        
+        @media (min-width: 1110px) {
+            width: 581px;
+            height: 499px;    
+        }
+        
+        @media (min-width: 1254px) {
+            width: 681px;
+            height: 599px;    
+        }
+    }
+
+        @media (min-width: 720px) {
+            bottom: -1455px; 
+            z-index: -1;
+        }
+    
+        @media (min-width: 1110px) {
+            bottom: -1255px; 
+            z-index: -1;
+        }
+    
+        @media (min-width: 1920px) {
+            bottom: -1255px; 
+            z-index: -1;
+        }
+    
+}
+
+.latest-box__header {
+    width: 190px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-size: 18px;
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    
+    @media (min-width: 720px) {
+        width: auto; 
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
+
+.latest-box__title {
+    font-size: 16px;
+
+    width: 200px;
+    color: rgb(119, 119, 119);
+    line-height: 1.2;
+    margin-left: 15px;
+    
+    @media (min-width: 720px) {
+        width: auto;    
+    }
+}
+
+.latest-box__text {
+   float: right;
+    height: auto;
+    color: #777777;
+    font-family: 'Roboto Slab', serif; 
+    letter-spacing: -0.5px;
+}
+
+.text-center {
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+.latest-block-content {
+    margin-left: auto;
+    margin-right: auto;
+    
+    @media (min-width: 720px) {
+        margin-left: 0;
+        margin-right: 0;
+        
+        position: relative;
+    }
+}
+
+.latest-block {
+    width: 300px;
+    
+    margin-top: 25px;
+    margin-left: -5px;
+    margin-bottom: 10px;
+    z-index: 1;
+    
+    @media (min-width: 720px) {
+        width: 500px;   
+    }
+}
+
+.view-details {
+    & span {
+        font-size: 16px;
+        font-family: "Montserrat";
+        color: rgb(124, 197, 118);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+    }
+}
+
+i {
+    color: rgb(124, 197, 118);
+    font-size: 14px;
+}

@@ -1,0 +1,11 @@
+[2019-01-22 14:39:40] layer "Circle-1.png": Duplicate path: Circle-1.png
+[2019-01-22 14:39:40] layer "Circle-2.png": Duplicate path: Circle-2.png
+[2019-01-22 14:39:40] layer "Circle-3.png": Duplicate path: Circle-3.png
+[2019-01-22 14:39:40] layer "Circle-1.png": Duplicate path: Circle-1.png
+[2019-01-22 14:39:40] layer "Circle-2.png": Duplicate path: Circle-2.png
+[2019-01-22 14:39:40] layer "Circle-3.png": Duplicate path: Circle-3.png
+[2019-01-22 14:39:40] layer "hello@treehouse.com": Unsupported extension: com
+[2019-01-22 14:39:40] layer "Google+": Expected end of input but "+" found.
+[2019-01-22 14:39:40] layer "© Copyright 2014 FreebiesXpress.com": Unsupported extension: com
+[2019-01-22 14:39:40] layer "Google+": Expected end of input but "+" found.
+[2019-01-22 14:39:40] layer "icon-graph.png": Duplicate path: icon-graph.png
