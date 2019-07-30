@@ -1,0 +1,238 @@
+.slide-wrapper {
+    position: relative;
+    width: 100%;
+    
+    padding-bottom: 90px;
+}
+
+.header-social-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    
+    & .header-social__item {
+        margin-right: 30px;
+    }
+    
+    @media (min-width: 1254px) {
+        display: none;
+    }
+}
+
+.header-social__item-mob {
+    margin-right: 30px;
+    
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+
+.header-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    
+    @media (max-width: 1254px) {
+        display: none;
+    }
+    
+    @media (min-width: 1254px) {
+        right: 20px;
+        bottom: 30px;
+        z-index: 9;
+    }
+    
+    @media (min-width: 1400px) {
+        right: -45px;       
+    }
+}
+
+.header-social__item {
+    margin-bottom: 34px;
+    
+    &:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+#headerSlider.owl-carousel .owl-stage-outer {
+    
+}
+
+.owl-carousel {
+    
+}
+
+.slide-item {
+    display: flex;
+    position: relative;
+    
+    justify-content: flex-end;
+}
+
+.slide-item__desc {
+    background-color: #fff;
+    padding: 25px;
+    
+    min-width: 260px;
+    max-width: 680px;
+    
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    box-shadow: -16px 0px 65px rgba(11, 12, 17, 0.2);
+    text-align: center;
+    
+    
+    @media (min-width: 1254px) {
+        background-color: transparent;
+        text-align: left;
+        padding: 0;
+        bottom: auto;
+        box-shadow: none;
+        
+        width: 500px; 
+
+        position: absolute;
+
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);    
+    }
+}
+
+.slide-item__heading {
+    color: #0b0c11;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 10px;
+    
+    @media (min-width: 920px) {
+        font-size: 42px;    
+    }
+    
+    
+    @media (min-width: 1254px) {
+        color: #0b0c11;
+        font-family: 'Playfair Display', serif;
+        font-size: 62px;
+
+        margin-bottom: 20px;
+    }
+    
+    & span {
+        display: block;
+        
+        font-size: 9px;
+        font-family: 'League Spartan Bold', sans-serif;
+        
+        color: rgba(93, 168, 239, 0.902);
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1;
+        letter-spacing: 5.4px;
+        
+        margin-bottom: 10px;
+        
+        @media (min-width: 1254px) {
+            margin-bottom: 16px;    
+        }
+    }
+}
+
+.slide-item__text {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(143, 143, 143);
+    line-height: 1.714;
+    
+    @media (min-width: 992px) {
+        width: 390px;
+    }
+}
+
+.slide-item__img {
+    width: 100%;
+    height: 372px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);    
+    
+    @media (min-width: 1254px) {
+        width: 1016px;
+        height: 572px;   
+    }
+}
+
+.slide-item__img--bg-1 {
+    background-image: url('../../img/photo/img-header.jpg');    
+}
+
+.slides-controlls {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    
+    z-index: 9;
+    
+    width: 81px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translate(-50%, 350%);
+    
+    @media (min-width: 1254px) {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+
+        z-index: 9;
+
+        width: 81px;
+
+        display: flex;
+        justify-content: space-between;  
+        transform: translate(0%, 0%);
+    }
+}
+
+.slide-controlls__left {
+    
+}
+
+.slide-controlls__right {
+    
+}
+
+.slide-controlls__number {
+    font-family: 'League Spartan Bold', sans-serif; 
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1;  
+    letter-spacing: 4px;
+    
+    margin-top: 8px;
+    
+}
+
+.slide-controlls__number-active {
+    color: rgb(93, 168, 239);  
+}
+
+.slide-controlls__number-from {
+    color: #ebebeb;    
+}
+
+.slide-controlls__number-total {
+    color: #262626;
+}

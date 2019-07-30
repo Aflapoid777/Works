@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10.031" height="18" viewBox="0 0 10.031 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #333;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="shopSliderLeft.svg" class="cls-1" d="M26.155,2384.64l8.951-8.49a0.556,0.556,0,0,1,.76,0,0.489,0.489,0,0,1,0,.72L27.3,2385l8.57,8.13a0.489,0.489,0,0,1,0,.72,0.551,0.551,0,0,1-.756,0l-8.952-8.49A0.492,0.492,0,0,1,26.155,2384.64Z" transform="translate(-26 -2376)"/>
+</svg>

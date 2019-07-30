@@ -1,0 +1,112 @@
+.navigation-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    @media (min-width: 768px) {
+        margin-bottom: 40px;
+    }
+    
+    @media (min-width: 1254px) {
+        flex-direction: row;
+        align-items: center; 
+        margin-bottom: 0;
+        height: 128px;
+    }
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    @media (min-width: 1254px) {
+        width: auto;
+        
+        margin-right: 190px; 
+        
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    width: 100%;
+    
+    list-style-type: none;
+    
+    font-family: 'League Spartan Bold', sans-serif;
+    font-weight: 700;
+    
+    margin: 0px;
+    padding: 0px;  
+    
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    @media (min-width: 1254px) {
+        flex-direction: row;
+        justify-content: flex-start;
+        width: auto;
+    }
+}
+
+.navigation__item {
+    text-align: center;
+    margin-bottom: 15px;
+    
+    &:last-child {
+        margin-bottom: 0px;
+    }
+    
+    @media (min-width: 1254px) {
+        margin-right: 40px; 
+        margin-bottom: 0px;
+        
+        &:last-child {
+            margin-right: 0px;
+        }             
+    }
+    
+    @media (min-width: 768px) {
+        margin-right: 40px; 
+        margin-bottom: 0px;
+        
+        &:last-child {
+            margin-right: 0px;
+        }
+    }
+}
+
+.navigation__link {
+    font-size: 9px;
+    font-family: 'League Spartan Bold', sans-serif;
+    font-weight: 700;
+    
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 5.58px;
+    
+    color: rgba(11, 12, 17, 0.9);
+    
+    &:hover {
+        text-decoration: line-through;
+        color: rgba(11, 12, 17, 0.9);
+        
+        border-top: 2px solid rgba(11, 12, 17, 0.9);
+        border-bottom: 2px solid rgba(11, 12, 17, 0.9);
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+        transition: all.2s ease;
+    }
+}
